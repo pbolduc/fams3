@@ -9,7 +9,7 @@ jobs:
       - name: Start job
         run: pwd && ls -ll
       - uses: actions/checkout@v1
-      - name: Run sonarqube FAMS3-DynamicsAdapter
+      - name: Run sonarqube FAMS3-DynamicsAdapter 
         env:
           # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
