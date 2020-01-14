@@ -1,6 +1,6 @@
 name: Sonar Scan
 
-on: [pull_request]
+on: [push]
 
 jobs:
   build:
